@@ -4,14 +4,37 @@
     <meta charset="UTF-8" />
     <title>My Application</title>
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
 
     <div class="container">
         <h1>Hello There!</h1>
         <p>To get started, edit <code>src/index.js</code>.</p>
+        <div id="info"></div>
+        <div id="rating"></div>
+
+        <form>
+            <div>
+                <label>Movie Title:
+                <input class="movieInput" id="movieTitle" type="text"></label>
+            </div>
+            <div>
+                <label>Rating:
+                <input class="ratingInput" id="ratingRadio" type="text"></label>
+            </div>
+            <button id="addData">Submit</button>
+
+        </form>
     </div>
 
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <script src="/main.js"></script>
 </body>
 </html>
